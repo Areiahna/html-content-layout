@@ -1,0 +1,100 @@
+body{
+    font-family: "Francois One", serif;
+}
+container{
+    text-align: center;
+}
+
+
+form{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+input[name='fname'], input[name='lname']{
+    width: 49.5%;
+}
+
+input, textarea, button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+input:hover, textarea:hover{
+    box-shadow: rgb(172, 232, 255) 0 0 15px ;
+}
+input:focus, textarea:focus{
+    box-shadow: rgb(230, 255, 70) 0 0 15px ;
+}
+
+button:hover{
+    background-color: rgb(165, 210, 255);
+    transform: scale(1);
+    
+}
+header{
+    background-color:  rgb(165, 210, 255);
+    padding: 5px;
+}
+
+ul{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    float: left;
+    list-style-type:"🍋";
+    font-size: 20px;   
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:visited{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+
+table{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px solid;
+}
+
+thead{
+    background-color:rgb(243, 251, 194) ;
+    border-bottom: 1px solid;
+}
+th,td{
+    padding: 6px;
+    border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+tbody > tr:nth-of-type(even){
+    background-color: rgb(195, 223, 252) ;
+
+}
+
+caption{
+    caption-side: bottom;
+    padding: 10px;
+    text-shadow: rgb(230, 255, 70) 0 0 15px ;
+}
