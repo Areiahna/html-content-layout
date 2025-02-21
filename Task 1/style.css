@@ -1,0 +1,103 @@
+
+#navbar {
+    text-align: center;
+    padding: 30px;
+}
+
+.nav-link{
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: fantasy;
+    color: black;
+}
+
+.nav-link:hover, nav-link:visited{
+    text-shadow: red 5px 0 20px ;
+    text-decoration: none;
+}
+
+
+#gallery{
+    padding: 50px;
+    border: none;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+ td:hover{
+    transform: scale(1.3);
+ }
+
+img{
+    height: 300px;
+    width: 250px;
+}
+
+#video-clips{
+   padding: 50px;
+}
+.video{
+    margin-left: 620px;
+    padding: 10px;
+
+}
+
+@keyframes flash{
+    0%, 100%{
+        background-color: transparent;
+        color: orange;
+        border: 1px solid orange;
+    }
+
+    50% {
+        background-color: orange;
+        color: white;
+      }
+}
+
+.cta{
+    border-radius: 5px;
+    padding: 10px;
+    margin-left:865px;
+    font-size: 20px;
+}
+
+.cta:hover {
+    animation: flash 1.7s infinite;
+    transition: background-color 0.75s, color 0.75s;
+
+}
+
+a,a:visited{
+    text-decoration: none;
+    color:black;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+input, textarea, .form-button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+input:focus, textarea:focus{
+    box-shadow: gray 0 0 8px;
+}

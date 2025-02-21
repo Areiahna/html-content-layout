@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Content Layout</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav id="navbar">
+                <a class = "nav-link" href ="#poster-gallery"> Poster Gallery</a> <a class = "nav-link" href ="#feedback"> Feedback </a>
+                <a class = "nav-link" href ="#clips"> Watch Now </a>   
+            </nav>
+        </header>
+
+        <div id="gallery">
+            <table>
+                <tr>
+                    <td><img src="images/aot.jpg" alt=""></td>
+                    <td><img src="images/bleach.webp" alt=""></td>
+                    <td><img src="images/demon_slayer.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td><img src="images/hxh.jpg" alt=""></td>
+                    <td><img src="images/jjk_manga_cover.jpg" alt=""></td>
+                    <td><img src="images/my_hero.webp" alt=""></td>
+                </tr>
+                <tr>
+                    <td><img src="images/naruto.jpg" alt=""></td>
+                    <td><img src="images/one_piece.jpg" alt=""></td>
+                    <td><img src="images/solo_leveling.jpg" alt=""></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="video-clips">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JNlWIwJfOlU?si=val4kO9HY0JwmB_R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Anime: Bleach <br>Description: Ichigo's BanKai</p>
+            </div>
+            <button class="cta"><a href="https://bleach-anime.com/en/">CLICK ME</a></button>
+       </div>
+
+       <div id="feedback">
+        <div class="container">
+
+            <form action="/submit" method="post">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+                <br>
+                <label for="comment">Feedback</label>
+                <textarea name="comment" id="comment"></textarea>
+                
+                <button class="form-button" type="submit">Submit</button>
+            </form>
+
+        </div>
+       </div>
+            
+       
+    </main>
+</body>
+</html>
